@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/pexels-roberto-nickson-2478248.jpg');
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.5);
+
+}
+.pannel{
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.title{
+    color: white;
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+.count{
+    height: 100px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+input{
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
